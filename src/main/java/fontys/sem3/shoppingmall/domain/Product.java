@@ -1,6 +1,5 @@
 package fontys.sem3.shoppingmall.domain;
 
-import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,15 +9,12 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class CreateAdminRequest {
-
-    @NotBlank
-    private String id;
-
-    @NotBlank
-    private String pw;
-
-    @NotBlank
+public class Product {
+    private Long id;
     private String name;
-
+    private Long price;
+    private String gender;
+    private String category;
+    private String color;
+    private String detail;
 }

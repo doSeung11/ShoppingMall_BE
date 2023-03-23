@@ -1,6 +1,5 @@
 package fontys.sem3.shoppingmall.domain;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,9 +9,11 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Admin {
-    private Long num;
-    private String id;
-    private String pw;
+public class CreateProductRequest {
     private String name;
+    private Long price;
+    private String gender;
+    private String category;
+    private String color;
+    private String detail;
 }

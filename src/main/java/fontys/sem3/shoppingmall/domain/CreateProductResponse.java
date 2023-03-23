@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data
 @Builder
-public class CreateAdminResponse {
-    private Long adminNum;
+public class CreateProductResponse {
+    private Long id;
 }

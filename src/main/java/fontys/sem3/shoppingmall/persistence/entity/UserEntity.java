@@ -5,10 +5,10 @@ import lombok.Data;
 
 @Data
 @Builder
-public class AdminEntity {
+public class UserEntity {
 
-    private Long num;
-    private String id;
-    private String pw;
+    private Long id;
     private String name;
+    private String userId;
+    private String UserPw;
 }

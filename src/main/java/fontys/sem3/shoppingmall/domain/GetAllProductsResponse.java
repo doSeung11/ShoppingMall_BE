@@ -11,6 +11,6 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class GetAllAdminsResponse {
-    private List<Admin> admins;
+public class GetAllProductsResponse {
+    private List<Product> products;
 }
